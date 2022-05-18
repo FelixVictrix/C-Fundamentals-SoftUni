@@ -6,7 +6,7 @@ namespace _02._Vowels_Count
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
+            string input = Console.ReadLine().ToLower();
 
             Vowels(input);
         }
@@ -19,15 +19,11 @@ namespace _02._Vowels_Count
                 switch (letter)
                 {
                     case 'a':
-                    case 'A':
                     case 'e':
-                    case 'E':
                     case 'i':
-                    case 'I':
                     case 'o':
-                    case 'O':
                     case 'u':
-                    case 'U':
+                    case 'y':
                         vowelsCount++;
                         break;
                 }

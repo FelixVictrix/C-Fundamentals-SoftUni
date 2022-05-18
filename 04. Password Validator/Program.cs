@@ -9,25 +9,29 @@ namespace _04._Password_Validator
         {
             string password = Console.ReadLine();
 
-            //if (IsLength(password))
-            //{
-            //    if (IsDigits(password))
-            //    {
-            //        if (IsCount(password))
-            //        {
-            //            Console.WriteLine("Password is valid");
-            //        }
-            //    }
-            //}
-            IsLength(password);
-            IsDigits(password);
-            IsCount(password);
-            //bool isValid = IsLength(password) && IsDigits(password) && IsCount(password);
-            //if (isValid)
-            //{
-            //    Console.WriteLine("Password is valid");
-            //}
+            bool isTrue = IsLength(password) &&
+                          IsDigits(password) &&
+                          IsCount(password);
 
+            if (isTrue)
+            {
+                Console.WriteLine("Password is valid");
+            }
+
+            if (!IsLength(password))
+            {
+                Console.WriteLine("Password must be between 6 and 10 characters");
+            }
+
+            if (!IsDigits(password))
+            {
+                Console.WriteLine("Password must consist only of letters and digits");
+            }
+
+            if (!IsCount(password))
+            {
+                Console.WriteLine("Password must have at least 2 digits");
+            }
         }
 
 
@@ -37,11 +41,9 @@ namespace _04._Password_Validator
             {
                 return true;
             }
-            else
-            {
-                Console.WriteLine("Password must be between 6 and 10 characters");
-                return false;
-            }
+            
+            return false;
+
         }
 
         static bool IsDigits(string password)
@@ -51,11 +53,9 @@ namespace _04._Password_Validator
             {
                 return true;
             }
-            else
-            {
-                Console.WriteLine("Password must consist only of letters and digits");
-                return false;
-            }
+
+            return false;
+
         }
 
         static bool IsCount(string password)
@@ -73,11 +73,8 @@ namespace _04._Password_Validator
             {
                 return true;
             }
-            else
-            {
-                Console.WriteLine("Password must have at least 2 digits");
-                return false;
-            }
+
+            return false;
         }
     }
 }

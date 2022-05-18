@@ -85,13 +85,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Characters in Range", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Password Validator", "04. Password Validator\04. Password Validator.csproj", "{1371ECB5-24DD-49C1-8E70-BF9CA2E86932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Add and Subtract", "05. Add and Subtract\05. Add and Subtract.csproj", "{D08AEFF6-E001-4D2D-8CBA-52FF8DD78D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Add and Subtract", "05. Add and Subtract\05. Add and Subtract.csproj", "{D08AEFF6-E001-4D2D-8CBA-52FF8DD78D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Middle Characters", "06. Middle Characters\06. Middle Characters.csproj", "{87411401-2A70-4F55-8142-97DEB345B7C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Middle Characters", "06. Middle Characters\06. Middle Characters.csproj", "{87411401-2A70-4F55-8142-97DEB345B7C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. NxN Matrix", "07. NxN Matrix\07. NxN Matrix.csproj", "{99A078B9-04CE-4071-928D-58F514BB1F52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. NxN Matrix", "07. NxN Matrix\07. NxN Matrix.csproj", "{99A078B9-04CE-4071-928D-58F514BB1F52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Factorial Division", "08. Factorial Division\08. Factorial Division.csproj", "{A463EE6B-22E2-4349-BBAF-2450A58B0BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08t. Factorial Division", "08. Factorial Division\08t. Factorial Division.csproj", "{A463EE6B-22E2-4349-BBAF-2450A58B0BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08u. Factorial Division", "08u. Factorial Division\08u. Factorial Division.csproj", "{EC1BCCB2-C2A8-4115-8F20-980EF363F7F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Palindrome Integers", "09. Palindrome Integers\09. Palindrome Integers.csproj", "{D30470A8-13B6-4BEE-AFFD-02A0F9903491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Top Number", "10. Top Number\10. Top Number.csproj", "{2479E004-6485-415F-A02B-9806947F3AD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,6 +269,18 @@ Global
 		{A463EE6B-22E2-4349-BBAF-2450A58B0BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A463EE6B-22E2-4349-BBAF-2450A58B0BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A463EE6B-22E2-4349-BBAF-2450A58B0BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1BCCB2-C2A8-4115-8F20-980EF363F7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1BCCB2-C2A8-4115-8F20-980EF363F7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1BCCB2-C2A8-4115-8F20-980EF363F7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1BCCB2-C2A8-4115-8F20-980EF363F7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D30470A8-13B6-4BEE-AFFD-02A0F9903491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30470A8-13B6-4BEE-AFFD-02A0F9903491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30470A8-13B6-4BEE-AFFD-02A0F9903491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30470A8-13B6-4BEE-AFFD-02A0F9903491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2479E004-6485-415F-A02B-9806947F3AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2479E004-6485-415F-A02B-9806947F3AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2479E004-6485-415F-A02B-9806947F3AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2479E004-6485-415F-A02B-9806947F3AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -308,6 +326,9 @@ Global
 		{87411401-2A70-4F55-8142-97DEB345B7C3} = {0824D3AE-A11A-42E0-92A8-07AB0D2CFAC5}
 		{99A078B9-04CE-4071-928D-58F514BB1F52} = {0824D3AE-A11A-42E0-92A8-07AB0D2CFAC5}
 		{A463EE6B-22E2-4349-BBAF-2450A58B0BD5} = {0824D3AE-A11A-42E0-92A8-07AB0D2CFAC5}
+		{EC1BCCB2-C2A8-4115-8F20-980EF363F7F3} = {0824D3AE-A11A-42E0-92A8-07AB0D2CFAC5}
+		{D30470A8-13B6-4BEE-AFFD-02A0F9903491} = {0824D3AE-A11A-42E0-92A8-07AB0D2CFAC5}
+		{2479E004-6485-415F-A02B-9806947F3AD4} = {0824D3AE-A11A-42E0-92A8-07AB0D2CFAC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
