@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Gauss' Trick", "02. Gau
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Merging Lists", "03. Merging Lists\03. Merging Lists.csproj", "{EEED9B94-5CEF-4C65-8C35-37B90120759F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. List of Products", "04. List of Products\04. List of Products.csproj", "{6A9492CD-1561-4774-93E4-22636DC56922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +323,10 @@ Global
 		{EEED9B94-5CEF-4C65-8C35-37B90120759F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEED9B94-5CEF-4C65-8C35-37B90120759F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEED9B94-5CEF-4C65-8C35-37B90120759F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9492CD-1561-4774-93E4-22636DC56922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9492CD-1561-4774-93E4-22636DC56922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9492CD-1561-4774-93E4-22636DC56922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9492CD-1561-4774-93E4-22636DC56922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -375,6 +381,7 @@ Global
 		{B6FC1ED3-49AE-483C-815A-E605DE3CA75C} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
 		{8E2AD30A-2578-4E17-8F07-304876EB4368} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
 		{EEED9B94-5CEF-4C65-8C35-37B90120759F} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
+		{6A9492CD-1561-4774-93E4-22636DC56922} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
