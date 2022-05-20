@@ -109,13 +109,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Center Point", "02. Cen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16. Lists Lab", "16. Lists Lab", "{698C6AEE-8802-4C70-B2EA-57C5ABC51E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Adjacent Equal Numbers", "01. Sum Adjacent Equal Numbers\01. Sum Adjacent Equal Numbers.csproj", "{B6FC1ED3-49AE-483C-815A-E605DE3CA75C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Sum Adjacent Equal Numbers", "01. Sum Adjacent Equal Numbers\01. Sum Adjacent Equal Numbers.csproj", "{B6FC1ED3-49AE-483C-815A-E605DE3CA75C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Gauss' Trick", "02. Gauss' Trick\02. Gauss' Trick.csproj", "{8E2AD30A-2578-4E17-8F07-304876EB4368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Gauss' Trick", "02. Gauss' Trick\02. Gauss' Trick.csproj", "{8E2AD30A-2578-4E17-8F07-304876EB4368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Merging Lists", "03. Merging Lists\03. Merging Lists.csproj", "{EEED9B94-5CEF-4C65-8C35-37B90120759F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Merging Lists", "03. Merging Lists\03. Merging Lists.csproj", "{EEED9B94-5CEF-4C65-8C35-37B90120759F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. List of Products", "04. List of Products\04. List of Products.csproj", "{6A9492CD-1561-4774-93E4-22636DC56922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. List of Products", "04. List of Products\04. List of Products.csproj", "{6A9492CD-1561-4774-93E4-22636DC56922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Remove Negatives and Reverse", "05. Remove Negatives and Reverse\05. Remove Negatives and Reverse.csproj", "{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. List Manipulation Basics", "06. List Manipulation Basics\06. List Manipulation Basics.csproj", "{DC08E781-E8C5-4474-9288-929CC443A51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. List Manipulation Advanced", "07. List Manipulation Advanced\07. List Manipulation Advanced.csproj", "{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +333,18 @@ Global
 		{6A9492CD-1561-4774-93E4-22636DC56922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A9492CD-1561-4774-93E4-22636DC56922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A9492CD-1561-4774-93E4-22636DC56922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC08E781-E8C5-4474-9288-929CC443A51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC08E781-E8C5-4474-9288-929CC443A51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC08E781-E8C5-4474-9288-929CC443A51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC08E781-E8C5-4474-9288-929CC443A51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -382,6 +400,9 @@ Global
 		{8E2AD30A-2578-4E17-8F07-304876EB4368} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
 		{EEED9B94-5CEF-4C65-8C35-37B90120759F} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
 		{6A9492CD-1561-4774-93E4-22636DC56922} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
+		{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
+		{DC08E781-E8C5-4474-9288-929CC443A51A} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
+		{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}

@@ -9,22 +9,19 @@ namespace TEST
         static void Main(string[] args)
         {
 
-            var array = new int[3];
+            List<int> listOfInt = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToList();
 
-            for (int i = 0; i < array.Length; i++)
+            List<int> backUpList = new List<int>(listOfInt);
+            listOfInt.Add(3);
+
+            bool isEqual =backUpList.Count==listOfInt.Count && backUpList.SequenceEqual(listOfInt);
+            if (!isEqual)
             {
-                var input = Console.ReadLine();
-                array[i] = int.Parse(input);
+                Console.WriteLine(string.Join(" ", listOfInt));
             }
-
-            MinValue(array);
-
-        }
-
-        static void MinValue(int[] array)
-        {
-            var a = array.Min(x=> x);
-            Console.WriteLine(a);
         }
     }
 }
