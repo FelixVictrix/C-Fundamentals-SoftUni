@@ -117,17 +117,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Merging Lists", "03. Me
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. List of Products", "04. List of Products\04. List of Products.csproj", "{6A9492CD-1561-4774-93E4-22636DC56922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Remove Negatives and Reverse", "05. Remove Negatives and Reverse\05. Remove Negatives and Reverse.csproj", "{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Remove Negatives and Reverse", "05. Remove Negatives and Reverse\05. Remove Negatives and Reverse.csproj", "{0E535F13-DF0E-4C29-B3A5-0C187DEB9D6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. List Manipulation Basics", "06. List Manipulation Basics\06. List Manipulation Basics.csproj", "{DC08E781-E8C5-4474-9288-929CC443A51A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. List Manipulation Basics", "06. List Manipulation Basics\06. List Manipulation Basics.csproj", "{DC08E781-E8C5-4474-9288-929CC443A51A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. List Manipulation Advanced", "07. List Manipulation Advanced\07. List Manipulation Advanced.csproj", "{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. List Manipulation Advanced", "07. List Manipulation Advanced\07. List Manipulation Advanced.csproj", "{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17. Lists Exercise", "17. Lists Exercise", "{1AABDEDC-AD03-4D19-A274-90F840CBFDF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Train List", "01. Train List\01. Train List.csproj", "{B093E608-E61A-4465-A466-6918048BF893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Train List", "01. Train List\01. Train List.csproj", "{B093E608-E61A-4465-A466-6918048BF893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Change List", "02. Change List\02. Change List.csproj", "{0759369F-3625-499F-90E2-0053ABC77165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Change List", "02. Change List\02. Change List.csproj", "{0759369F-3625-499F-90E2-0053ABC77165}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. House Party", "03. House Party\03. House Party.csproj", "{D3034748-5726-4211-BD1F-05C72F44F6DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. List Operations", "04. List Operations\04. List Operations.csproj", "{A1BAFA4D-1BEE-495F-AC58-B7C5ECF70DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Bomb Numbers", "05. Bomb Numbers\05. Bomb Numbers.csproj", "{94E5354B-2AAD-44A8-8790-54CC2FA80017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -359,6 +365,18 @@ Global
 		{0759369F-3625-499F-90E2-0053ABC77165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0759369F-3625-499F-90E2-0053ABC77165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0759369F-3625-499F-90E2-0053ABC77165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3034748-5726-4211-BD1F-05C72F44F6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3034748-5726-4211-BD1F-05C72F44F6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3034748-5726-4211-BD1F-05C72F44F6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3034748-5726-4211-BD1F-05C72F44F6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BAFA4D-1BEE-495F-AC58-B7C5ECF70DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BAFA4D-1BEE-495F-AC58-B7C5ECF70DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BAFA4D-1BEE-495F-AC58-B7C5ECF70DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BAFA4D-1BEE-495F-AC58-B7C5ECF70DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E5354B-2AAD-44A8-8790-54CC2FA80017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E5354B-2AAD-44A8-8790-54CC2FA80017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E5354B-2AAD-44A8-8790-54CC2FA80017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E5354B-2AAD-44A8-8790-54CC2FA80017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -419,6 +437,9 @@ Global
 		{8CFFDDDB-6A00-462D-951C-47CA0DB46C9D} = {698C6AEE-8802-4C70-B2EA-57C5ABC51E54}
 		{B093E608-E61A-4465-A466-6918048BF893} = {1AABDEDC-AD03-4D19-A274-90F840CBFDF9}
 		{0759369F-3625-499F-90E2-0053ABC77165} = {1AABDEDC-AD03-4D19-A274-90F840CBFDF9}
+		{D3034748-5726-4211-BD1F-05C72F44F6DF} = {1AABDEDC-AD03-4D19-A274-90F840CBFDF9}
+		{A1BAFA4D-1BEE-495F-AC58-B7C5ECF70DEE} = {1AABDEDC-AD03-4D19-A274-90F840CBFDF9}
+		{94E5354B-2AAD-44A8-8790-54CC2FA80017} = {1AABDEDC-AD03-4D19-A274-90F840CBFDF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
