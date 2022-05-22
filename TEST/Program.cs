@@ -10,34 +10,52 @@ namespace TEST
         {
 
 
-            List<int> list = Console.ReadLine()
+            List<int> firstHand = Console.ReadLine()
                 .Split()
                 .Select(int.Parse)
                 .ToList();
-            int  count = int.Parse(Console.ReadLine());
 
-            //for (int i = 0; i < count; i++)
-            //{
-            //    int last = list[list.Count-1];
-            //    list.RemoveAt(list.Count - 1);
-            //    list.Insert(0, last);
-                
-            //    //for (int j = 0; j < list.Count - 1; j++)
-            //    //{
-            //    //    list.Insert()
-            //    //}
-            //    // list[list.Count - 1] = first;
-            //}
-            for (int i = 0; i < count; i++)
+            List<int> secondHand = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToList();
+
+            while (firstHand.Any() && secondHand.Any())
             {
-                int last = list[list.Count - 1];
-                for (int j = list.Count - 1; j > 0; j--)
+
+                int firstCard = firstHand[0];
+                int secondCard = secondHand[0];
+
+                if (firstCard == secondCard)
                 {
-                    list[j] = list[j - 1];
+                    firstHand.Remove(firstCard);
+                    secondHand.Remove(secondCard);
                 }
-                list[0] = last;
+                else if (firstCard > secondCard)
+                {
+                    firstHand.Add(firstCard);
+                    firstHand.Add(secondCard);
+                    firstHand.Remove(firstHand[0]);
+                    secondHand.Remove(secondHand[0]);
+                }
+                else if (firstCard < secondCard)
+                {
+                    secondHand.Add(secondCard);
+                    secondHand.Add(firstCard);
+                    secondHand.Remove(secondHand[0]);
+                    firstHand.Remove(firstHand[0]);
+                }
+
             }
 
+            if (firstHand.Any())
+            {
+                Console.WriteLine($"First player wins! Sum: {firstHand.Sum()}");
+            }
+            else
+            {
+                Console.WriteLine($"Second player wins! Sum: {secondHand.Sum()}");
+            }
         }
     }
 }
