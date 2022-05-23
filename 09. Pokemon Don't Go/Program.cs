@@ -22,9 +22,10 @@ namespace _09._Pokemon_Don_t_Go
                 {
                     listOfDistances[0] = listOfDistances[^1];
                 }
-                else if (index > listOfDistances.Count -1)
+                else if (index > listOfDistances.Count - 1)
                 {
                     listOfDistances.Add(listOfDistances[0]);
+                    index = listOfDistances.Count - 1;
                     // listOfDistances[^1] = listOfDistances[0];
                 }
                 var elementToRemove = listOfDistances[index];
@@ -37,7 +38,7 @@ namespace _09._Pokemon_Don_t_Go
                     {
                         listOfDistances[i] -= elementToRemove;
                     }
-                    else if(elementToRemove >= listOfDistances[i])
+                    else if (elementToRemove >= listOfDistances[i])
                     {
                         listOfDistances[i] += elementToRemove;
                     }
