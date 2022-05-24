@@ -16,7 +16,7 @@ namespace _03._Take_Skip_Rope
             List<int> numList = new List<int>();
             List<string> nonNum = new List<string>();
 
-            int num; string letter;
+            int num;
 
             for (int i = 0; i < chrList.Count; i++)
             {
@@ -32,15 +32,44 @@ namespace _03._Take_Skip_Rope
                 }
             }
 
-            string message = string.Empty;
+            //string message = string.Empty;
+            List<string> message = new List<string>();
 
             for (int j = 0; j < numList.Count; j += 2)
             {
                 int take = numList[j];
                 int skip = numList[j + 1];
 
-                
+                if (take > nonNum.Count)
+                {
+                    take = nonNum.Count;
+                }
+
+                if (skip > nonNum.Count)
+                {
+                    skip = nonNum.Count;
+                }
+
+                if (skip == take)
+                {
+                    
+                }
+                for (int i = 0; i < take; i++)
+                {
+                    message.Add(nonNum[i]);
+                }
+
+                int count = take + skip;
+                nonNum.RemoveRange(0, count);
             }
+
+            Console.WriteLine();
+            foreach (var VARIABLE in message)
+            {
+                Console.Write(VARIABLE);
+            }
+
+            Console.WriteLine();
         }
     }
 }
