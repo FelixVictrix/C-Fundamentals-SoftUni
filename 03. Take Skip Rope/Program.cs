@@ -32,7 +32,6 @@ namespace _03._Take_Skip_Rope
                 }
             }
 
-            //string message = string.Empty;
             List<string> message = new List<string>();
 
             for (int j = 0; j < numList.Count; j += 2)
@@ -50,13 +49,14 @@ namespace _03._Take_Skip_Rope
                     skip = nonNum.Count;
                 }
 
-                if (skip == take)
-                {
-                    
-                }
                 for (int i = 0; i < take; i++)
                 {
                     message.Add(nonNum[i]);
+                }
+
+                if (nonNum.Count < take + skip)
+                {
+                    break;
                 }
 
                 int count = take + skip;
