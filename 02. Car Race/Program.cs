@@ -37,11 +37,11 @@ namespace _02._Car_Race
 
             if (leftTime < rightTime)
             {
-                Console.WriteLine($"The winner is left with total time: {leftTime:f}");
+                Console.WriteLine($"The winner is left with total time: {(float)leftTime}");
             }
             else if (rightTime < leftTime)
             {
-                Console.WriteLine($"The winner is right with total time: {rightTime:f}");
+                Console.WriteLine($"The winner is right with total time: {(float)rightTime}");
             }
         }
     }
