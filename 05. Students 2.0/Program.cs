@@ -27,22 +27,7 @@ namespace _05._Students_2._0
                 student.Age = age;
                 student.HomeTown = hometown;
 
-                var a = students.Where(x => x.FirstName == firstName);
-
-                if (a)
-                {
-                    
-
-                }
-
-                foreach (var name in students.Where(x=> x.FirstName == firstName))
-                {
-                   name.FirstName = firstName;
-                   name.LastName = lastName;
-                   name.Age=age;
-                   name.HomeTown = hometown;
-                  
-                }
+               IsStudent(students , firstName , lastName);
 
                 students.Add(student);
 
@@ -55,6 +40,13 @@ namespace _05._Students_2._0
             {
                 Console.WriteLine($"{student.FirstName} {student.LastName} is {student.Age} years old.");
             }
+        }
+
+        static bool IsStudent(List<Student> students, string firstName, string lastName)
+        {
+           
+
+
         }
     }
 

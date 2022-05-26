@@ -161,13 +161,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19. Objects and Classes - L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Randomize Words", "01. Randomize Words\01. Randomize Words.csproj", "{A9410B17-719C-4F6C-9A68-A3EC68889AB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Big Factorial", "2. Big Factorial\02. Big Factorial.csproj", "{3A2EDD16-8EC2-463E-8B71-F1795B185203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Big Factorial", "2. Big Factorial\02. Big Factorial.csproj", "{3A2EDD16-8EC2-463E-8B71-F1795B185203}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Songs", "03. Songs\03. Songs.csproj", "{5FDE4319-BEAD-4505-9B01-9D2792A6EC4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Songs", "03. Songs\03. Songs.csproj", "{5FDE4319-BEAD-4505-9B01-9D2792A6EC4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Students", "04. Students\04. Students.csproj", "{2930BB63-4856-4875-BDB5-8B96BC62D0C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Students", "04. Students\04. Students.csproj", "{2930BB63-4856-4875-BDB5-8B96BC62D0C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Students 2.0", "05. Students 2.0\05. Students 2.0.csproj", "{8D7EE186-B33F-470C-B62A-9D90A72BAB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Students 2.0", "05. Students 2.0\05. Students 2.0.csproj", "{8D7EE186-B33F-470C-B62A-9D90A72BAB8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Store Boxes", "06. Store Boxes\06. Store Boxes.csproj", "{B94C04CE-A39A-4C86-8DA4-64074EC099D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -471,6 +473,10 @@ Global
 		{8D7EE186-B33F-470C-B62A-9D90A72BAB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D7EE186-B33F-470C-B62A-9D90A72BAB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D7EE186-B33F-470C-B62A-9D90A72BAB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94C04CE-A39A-4C86-8DA4-64074EC099D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94C04CE-A39A-4C86-8DA4-64074EC099D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94C04CE-A39A-4C86-8DA4-64074EC099D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94C04CE-A39A-4C86-8DA4-64074EC099D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -549,6 +555,7 @@ Global
 		{5FDE4319-BEAD-4505-9B01-9D2792A6EC4D} = {7AA6B189-3B47-4B5A-941E-46EF52E37172}
 		{2930BB63-4856-4875-BDB5-8B96BC62D0C5} = {7AA6B189-3B47-4B5A-941E-46EF52E37172}
 		{8D7EE186-B33F-470C-B62A-9D90A72BAB8E} = {7AA6B189-3B47-4B5A-941E-46EF52E37172}
+		{B94C04CE-A39A-4C86-8DA4-64074EC099D2} = {7AA6B189-3B47-4B5A-941E-46EF52E37172}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
