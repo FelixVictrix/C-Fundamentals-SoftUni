@@ -24,8 +24,8 @@ namespace _06._Store_Boxes
                 decimal pricePerBox = itemPrice * itemQuantity;
 
                 Box box = new Box();
-                box.SerilaNumber = serialNumber;
-                box.Item = new Item();
+                box.SerialNumber = serialNumber;
+                //box.Item = new Item();
                 box.Item.Name = itemName;
                 box.ItemQuantity = itemQuantity;
                 box.Item.Price = itemPrice;
@@ -36,13 +36,16 @@ namespace _06._Store_Boxes
                 input = Console.ReadLine();
             }
 
-            foreach (var bx in boxes.OrderByDescending(x=> x))
+            boxes = boxes.OrderByDescending(x=> x.PricePerBox).ToList();
+
+
+            foreach (var bx in boxes)
             {
                 StringBuilder sb = new StringBuilder();
-                sb.AppendLine(bx.SerilaNumber);
-                sb.AppendLine($"{bx.Item.Name} - ${bx.Item.Price}: {bx.ItemQuantity}");
-                sb.AppendLine();
-                Console.WriteLine(sb);
+                sb.AppendLine(bx.SerialNumber);
+                sb.AppendLine($"-- {bx.Item.Name} - ${bx.Item.Price:f2}: {bx.ItemQuantity}");
+                sb.AppendLine($"-- ${bx.PricePerBox:f2}");
+                Console.Write(sb);
             }
             //{boxSerialNumber}
 
@@ -62,8 +65,12 @@ namespace _06._Store_Boxes
     }
     class Box
     {
+        public Box()
+        {
+            Item = new Item();
+        }
 
-        public string SerilaNumber { get; set; }
+        public string SerialNumber { get; set; }
         public Item Item { get; set; }
         public int ItemQuantity { get; set; }
         public decimal PricePerBox { get; set; }
