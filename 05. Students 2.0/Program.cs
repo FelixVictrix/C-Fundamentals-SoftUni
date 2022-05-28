@@ -20,16 +20,27 @@ namespace _05._Students_2._0
                 string lastName = studentInfo[1];
                 int age = int.Parse(studentInfo[2]);
                 string hometown = studentInfo[3];
+ 
+                Student student = students.FirstOrDefault(x => x.FirstName == firstName && x.LastName == lastName);
 
-                Student student = new Student();
-                student.FirstName = firstName;
-                student.LastName = lastName;
-                student.Age = age;
-                student.HomeTown = hometown;
+                if (student == null)
+                {
+                    students.Add(new Student()
+                    {
+                        FirstName = firstName,
+                        LastName = lastName,
+                        Age = age,
+                        HomeTown = hometown
+                    });
+                }
+                else
+                {
+                    student.FirstName = firstName;
+                    student.LastName = lastName;
+                    student.Age = age;
+                    student.HomeTown = hometown;
 
-               IsStudent(students , firstName , lastName);
-
-                students.Add(student);
+                }
 
                 input = Console.ReadLine();
             }
@@ -42,12 +53,6 @@ namespace _05._Students_2._0
             }
         }
 
-        static bool IsStudent(List<Student> students, string firstName, string lastName)
-        {
-           
-
-
-        }
     }
 
     class Student
