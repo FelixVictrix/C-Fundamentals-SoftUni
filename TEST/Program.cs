@@ -9,46 +9,18 @@ namespace TEST
         static void Main(string[] args)
         {
 
-
-            List<string> firstList = new List<string>(Console.ReadLine().Split());
-            List<string> secondList = new List<string>(Console.ReadLine().Split().Reverse());
-
-            List<string> mergedList = new List<string>();
-
-            int first = 0;
-            int second = 0;
-            bool isBigger = firstList.Count > secondList.Count;
-            Merge(firstList, secondList);
-
-            if (isBigger)
+            List<int> list = new List<int>()
             {
-                for (int i = 0; i < secondList.Count; i++)
-                {
-                    mergedList.Add(firstList[i]);
-                    mergedList.Add(secondList[secondList.Count - 1 - i]);
-                }
+                1,2,3,4,5
+            };
 
-                firstList.RemoveRange(0, secondList.Count);
-                first = int.Parse(firstList[0]);
-                second = int.Parse(firstList[firstList.Count - 1]);
-            }
-            else if (!isBigger)
-            {
-                for (int i = 0; i < firstList.Count; i++)
-                {
-                    mergedList.Add(firstList[i]);
-                    mergedList.Add(secondList[secondList.Count - 1 - i]);
-                }
-                secondList.RemoveRange(0, firstList.Count);
-                first = int.Parse(secondList[0]);
-                second = int.Parse(secondList[secondList.Count - 1]);
-            }
+            var res = list.Select(x => $"({x.ToString()})").ToList();
 
-        }
+            Console.WriteLine(string.Join(":", res));
 
-        private static void Merge(List<string> firstList, List<string> secondList)
-        {
-            throw new NotImplementedException();
+            string[] a = { "abc", "def" };
+            var b = a.Select(a => a + "z");
+            Console.WriteLine(string.Join(", ", b));
         }
     }
 }
