@@ -8,19 +8,9 @@ namespace TEST
     {
         static void Main(string[] args)
         {
+            Dictionary<string, int> materials = new Dictionary<string, int>();
 
-            List<int> list = new List<int>()
-            {
-                1,2,3,4,5
-            };
-
-            var res = list.Select(x => $"({x.ToString()})").ToList();
-
-            Console.WriteLine(string.Join(":", res));
-
-            string[] a = { "abc", "def" };
-            var b = a.Select(a => a + "z");
-            Console.WriteLine(string.Join(", ", b));
+           
         }
     }
 }
