@@ -28,22 +28,22 @@ namespace _03._Legendary_Farming
             var legendary = materials.FirstOrDefault(m => m.Value >= 250);
             IsLegendary(legendary, materials);
 
-        
-                if (materials)
+
+            if (materials.Any(x => x.Value.Equals(x)))
+            {
+                foreach (var kvp in materials.OrderBy(m => m.Key))
                 {
-                    foreach (var kvp in materials.OrderBy(m => m.Value))
-                    {
-                        Console.WriteLine($"{kvp.Key}: {kvp.Value}");
-                    }
+                    Console.WriteLine($"{kvp.Key}: {kvp.Value}");
                 }
-                else
+            }
+            else
+            {
+                foreach (var kvp in materials.OrderByDescending(m => m.Value))
                 {
-                    foreach (var kvp in materials.OrderByDescending(m => m.Value))
-                    {
-                        Console.WriteLine($"{kvp.Key}: {kvp.Value}");
-                    }
+                    Console.WriteLine($"{kvp.Key}: {kvp.Value}");
                 }
-            
+            }
+
 
             foreach (var keyValuePair in junk.OrderByDescending(j => j.Key))
             {
