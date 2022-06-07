@@ -237,6 +237,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03u. Legendary Farming", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Company Users", "08. Company Users\08. Company Users.csproj", "{D3565B0A-69B1-4838-94EB-C23EEA3F6EA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ForceBook", "09. ForceBook\09. ForceBook.csproj", "{F717790B-D037-46DB-ADB4-73D58EAE2130}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -659,6 +661,10 @@ Global
 		{D3565B0A-69B1-4838-94EB-C23EEA3F6EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3565B0A-69B1-4838-94EB-C23EEA3F6EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3565B0A-69B1-4838-94EB-C23EEA3F6EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F717790B-D037-46DB-ADB4-73D58EAE2130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F717790B-D037-46DB-ADB4-73D58EAE2130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F717790B-D037-46DB-ADB4-73D58EAE2130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F717790B-D037-46DB-ADB4-73D58EAE2130}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -767,6 +773,7 @@ Global
 		{47C36DD9-4568-485D-BCFC-52413B329DBD} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
 		{DDEDBB0C-A9A6-4713-9197-F0318F6A02E3} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
 		{D3565B0A-69B1-4838-94EB-C23EEA3F6EA4} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
+		{F717790B-D037-46DB-ADB4-73D58EAE2130} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
