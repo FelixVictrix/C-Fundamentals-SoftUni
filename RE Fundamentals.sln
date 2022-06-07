@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Company Users", "08. Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ForceBook", "09. ForceBook\09. ForceBook.csproj", "{F717790B-D037-46DB-ADB4-73D58EAE2130}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. SoftUni Exam Results", "10. SoftUni Exam Results\10. SoftUni Exam Results.csproj", "{068894B5-E50D-4D1A-8A60-B08CFC3868D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -665,6 +667,10 @@ Global
 		{F717790B-D037-46DB-ADB4-73D58EAE2130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F717790B-D037-46DB-ADB4-73D58EAE2130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F717790B-D037-46DB-ADB4-73D58EAE2130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068894B5-E50D-4D1A-8A60-B08CFC3868D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068894B5-E50D-4D1A-8A60-B08CFC3868D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068894B5-E50D-4D1A-8A60-B08CFC3868D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068894B5-E50D-4D1A-8A60-B08CFC3868D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -774,6 +780,7 @@ Global
 		{DDEDBB0C-A9A6-4713-9197-F0318F6A02E3} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
 		{D3565B0A-69B1-4838-94EB-C23EEA3F6EA4} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
 		{F717790B-D037-46DB-ADB4-73D58EAE2130} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
+		{068894B5-E50D-4D1A-8A60-B08CFC3868D6} = {F0A57963-00E7-4537-98A2-9DC5C006FD19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
