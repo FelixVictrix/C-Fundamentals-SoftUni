@@ -251,15 +251,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02u. Repeat Strings", "02u.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Substring", "03. Substring\03. Substring.csproj", "{474A21E4-07D8-487A-8B4E-30D865048EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Text Filter", "04. Text Filter\04. Text Filter.csproj", "{B0AEB5C9-3C09-49BC-B646-434AABEC2181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Text Filter", "04. Text Filter\04. Text Filter.csproj", "{B0AEB5C9-3C09-49BC-B646-434AABEC2181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Digits, Letters and Other", "05. Digits, Letters and Other\05. Digits, Letters and Other.csproj", "{81F4E88F-F8A3-4186-86C2-9252299CEC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Digits, Letters and Other", "05. Digits, Letters and Other\05. Digits, Letters and Other.csproj", "{81F4E88F-F8A3-4186-86C2-9252299CEC58}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "28. Text Processing - Exercise", "28. Text Processing - Exercise", "{0E8C2557-3071-4DBA-8DE2-B56E3813164A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Valid Usernames", "01. Valid Usernames\01. Valid Usernames.csproj", "{B9043CB9-4671-4D61-A0AE-32C6644B9FCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Valid Usernames", "01. Valid Usernames\01. Valid Usernames.csproj", "{B9043CB9-4671-4D61-A0AE-32C6644B9FCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{F7AD4845-054F-48E5-A582-B1C07076A291}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -723,6 +725,10 @@ Global
 		{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AD4845-054F-48E5-A582-B1C07076A291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AD4845-054F-48E5-A582-B1C07076A291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AD4845-054F-48E5-A582-B1C07076A291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AD4845-054F-48E5-A582-B1C07076A291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -841,6 +847,7 @@ Global
 		{81F4E88F-F8A3-4186-86C2-9252299CEC58} = {2C97FD7F-4838-4492-B69B-F1FBD06AD70F}
 		{B9043CB9-4671-4D61-A0AE-32C6644B9FCD} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
 		{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
+		{F7AD4845-054F-48E5-A582-B1C07076A291} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
