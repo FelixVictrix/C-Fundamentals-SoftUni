@@ -261,9 +261,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Valid Usernames", "01. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{F7AD4845-054F-48E5-A582-B1C07076A291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{F7AD4845-054F-48E5-A582-B1C07076A291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Caesar Cipher", "04. Caesar Cipher\04. Caesar Cipher.csproj", "{3B666E63-32D0-4545-B823-CEFA322885DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Caesar Cipher", "04. Caesar Cipher\04. Caesar Cipher.csproj", "{3B666E63-32D0-4545-B823-CEFA322885DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Multiply Big Number", "05. Multiply Big Number\05. Multiply Big Number.csproj", "{5C2FED4B-BED1-40C9-A2DE-8F158486A92A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Replace Repeating Chars", "06. Replace Repeating Chars\06. Replace Repeating Chars.csproj", "{CD0ABD5B-A473-4EA5-8D0D-26ADAC022C92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -735,6 +739,14 @@ Global
 		{3B666E63-32D0-4545-B823-CEFA322885DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B666E63-32D0-4545-B823-CEFA322885DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B666E63-32D0-4545-B823-CEFA322885DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2FED4B-BED1-40C9-A2DE-8F158486A92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2FED4B-BED1-40C9-A2DE-8F158486A92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2FED4B-BED1-40C9-A2DE-8F158486A92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2FED4B-BED1-40C9-A2DE-8F158486A92A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0ABD5B-A473-4EA5-8D0D-26ADAC022C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0ABD5B-A473-4EA5-8D0D-26ADAC022C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0ABD5B-A473-4EA5-8D0D-26ADAC022C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0ABD5B-A473-4EA5-8D0D-26ADAC022C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -855,6 +867,8 @@ Global
 		{8842DDDF-C5E1-421B-9FAD-DAE1799AFE0C} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
 		{F7AD4845-054F-48E5-A582-B1C07076A291} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
 		{3B666E63-32D0-4545-B823-CEFA322885DC} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
+		{5C2FED4B-BED1-40C9-A2DE-8F158486A92A} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
+		{CD0ABD5B-A473-4EA5-8D0D-26ADAC022C92} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
