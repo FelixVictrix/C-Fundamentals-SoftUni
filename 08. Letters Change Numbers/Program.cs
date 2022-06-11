@@ -7,40 +7,40 @@ namespace _08._Letters_Change_Numbers
         static void Main(string[] args)
         {
 
-            string[] input = Console.ReadLine().Split(" ",StringSplitOptions.RemoveEmptyEntries);
+            string[] input = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-             double sum = 0;
+            double sum = 0;
 
             foreach (var item in input)
             {
-                string num = item.Substring(1, item.Length - 2);
-                int number = int.Parse(num);
-                char first = item[0];
-                char last = item[item.Length - 1];
+                string getNumber = item.Substring(1, item.Length - 2);
+                int number = int.Parse(getNumber);
+                char firstLetter = item[0];
+                char lastLetter = item[item.Length - 1];
 
-                if (char.IsUpper(first))
+                if (char.IsUpper(firstLetter))
                 {
-                    double letterPosition = (double)first - 64;
+                    double letterPosition = (double)firstLetter - 64;
                     sum += number / letterPosition;
                 }
                 else
                 {
-                    double letterPosition = (double)first - 96;
+                    double letterPosition = (double)firstLetter - 96;
                     sum += number * letterPosition;
                 }
 
-                if (char.IsUpper(last))
+                if (char.IsUpper(lastLetter))
                 {
-                    int letterPosition = (int)last - 64;
+                    int letterPosition = (int)lastLetter - 64;
                     sum -= letterPosition;
                 }
-                else 
+                else
                 {
-                    int letterPosition = (int)last - 96;
+                    int letterPosition = (int)lastLetter - 96;
                     sum += letterPosition;
                 }
 
-                //P34562Z q2576f H456z
             }
             Console.WriteLine($"{sum:f2}");
         }
