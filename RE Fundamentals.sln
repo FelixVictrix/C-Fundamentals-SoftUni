@@ -275,11 +275,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Letters Change Numbers"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "28a. Text Processing - More Exercise", "28a. Text Processing - More Exercise", "{C69747CE-E053-4457-9091-5BB157D6FD0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Extract Person Information", "01. Extract Person Information\01. Extract Person Information.csproj", "{49B0AFA9-A318-4326-AC0F-2DDD25BF4D5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Extract Person Information", "01. Extract Person Information\01. Extract Person Information.csproj", "{49B0AFA9-A318-4326-AC0F-2DDD25BF4D5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Ascii Sumator", "02. Ascii Sumator\02. Ascii Sumator.csproj", "{27055E1E-720E-4BEE-8151-9479F65B09C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Ascii Sumator", "02. Ascii Sumator\02. Ascii Sumator.csproj", "{27055E1E-720E-4BEE-8151-9479F65B09C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Treasure Finder", "03. Treasure Finder\03. Treasure Finder.csproj", "{4AFDC85F-B1AA-44CE-A3DC-4ED34FD8823F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30. Regular Expressions - Lab", "30. Regular Expressions - Lab", "{AFCE160A-BEC7-43F9-94BD-A85EEF5D1284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Match Full Name", "01. Match Full Name\01. Match Full Name.csproj", "{E8061380-9A08-426D-9499-A8929EAC383F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Match Phone Number", "02. Match Phone Number\02. Match Phone Number.csproj", "{E4734697-B4EE-4364-92AA-FC175A764FB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -775,10 +779,14 @@ Global
 		{27055E1E-720E-4BEE-8151-9479F65B09C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27055E1E-720E-4BEE-8151-9479F65B09C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27055E1E-720E-4BEE-8151-9479F65B09C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AFDC85F-B1AA-44CE-A3DC-4ED34FD8823F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AFDC85F-B1AA-44CE-A3DC-4ED34FD8823F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AFDC85F-B1AA-44CE-A3DC-4ED34FD8823F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AFDC85F-B1AA-44CE-A3DC-4ED34FD8823F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8061380-9A08-426D-9499-A8929EAC383F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8061380-9A08-426D-9499-A8929EAC383F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8061380-9A08-426D-9499-A8929EAC383F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8061380-9A08-426D-9499-A8929EAC383F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4734697-B4EE-4364-92AA-FC175A764FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4734697-B4EE-4364-92AA-FC175A764FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4734697-B4EE-4364-92AA-FC175A764FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4734697-B4EE-4364-92AA-FC175A764FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -905,7 +913,8 @@ Global
 		{FE65289C-C9AB-4B6C-BD46-C18594F1263A} = {0E8C2557-3071-4DBA-8DE2-B56E3813164A}
 		{49B0AFA9-A318-4326-AC0F-2DDD25BF4D5C} = {C69747CE-E053-4457-9091-5BB157D6FD0E}
 		{27055E1E-720E-4BEE-8151-9479F65B09C2} = {C69747CE-E053-4457-9091-5BB157D6FD0E}
-		{4AFDC85F-B1AA-44CE-A3DC-4ED34FD8823F} = {C69747CE-E053-4457-9091-5BB157D6FD0E}
+		{E8061380-9A08-426D-9499-A8929EAC383F} = {AFCE160A-BEC7-43F9-94BD-A85EEF5D1284}
+		{E4734697-B4EE-4364-92AA-FC175A764FB2} = {AFCE160A-BEC7-43F9-94BD-A85EEF5D1284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
