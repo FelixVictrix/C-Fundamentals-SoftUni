@@ -1,52 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Text.RegularExpressions;
 
-namespace _02._The_Lift
+namespace TEST
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            int peopleWaiting = int.Parse(Console.ReadLine());
-            List<int> liftSpace = Console.ReadLine().Split().Select(int.Parse).ToList();
+            int people = int.Parse(Console.ReadLine());
+            int[] spots = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
-            int maxSpace = 4;
-            int count = 0;
+            int max = 4;
 
-            if (peopleWaiting > 0)
+            if (people > 0)
             {
-                for (int i = 0; i < liftSpace.Count; i++)
+                for (int i = 0; i < spots.Length; i++)
                 {
-                    count++;
-                    for (int j = liftSpace[i]; j < maxSpace; j++)
+                    int currSpot = spots[i];
+
+                    if (currSpot == max)
                     {
-                        liftSpace[i]++;
-                        peopleWaiting--;
-                        if (peopleWaiting <= 0 && liftSpace[i] < 4)
-                        {
-                            Console.WriteLine("The lift has empty spots!");
-                            Console.WriteLine(string.Join(" ", liftSpace));
-                            return;
-                        }
+                        continue;
                     }
-                    if (liftSpace.All(p => p == 4) && peopleWaiting == 0)
+                    if (max > people && people != currSpot)
                     {
-                        Console.WriteLine(string.Join(" ", liftSpace));
+                        max = people;
+
+                        Console.WriteLine("The lift has empty spots!");
+                    }
+                    else
+                    {
+                        max = max - currSpot + people;
+                    }
+                    if (currSpot < 4)
+                    {
+                        spots[i] += max - currSpot;
+                        people -= max - currSpot;
+                    }
+                    if (spots.All(p => p == 4) && people == 0)
+                    {
                         break;
                     }
                 }
-                if (peopleWaiting > 0)
-                {
-                    Console.WriteLine($"There isn't enough space! {peopleWaiting} people in a queue!");
-                    Console.WriteLine(string.Join(" ", liftSpace));
-                }
-                else
-                {
-                    Console.WriteLine(string.Join(" ", liftSpace));
-                }
             }
+            if (people > 0)
+            {
+                Console.WriteLine($"There isn't enough space! {people} people in a queue!");
+            }
+
+            Console.WriteLine(string.Join(" ", spots));
         }
     }
 }

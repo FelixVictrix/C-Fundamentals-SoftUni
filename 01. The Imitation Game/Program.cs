@@ -25,10 +25,8 @@ namespace _01._The_Imitation_Game
                 {
                     int count = int.Parse(action[1]);
                     string moving = text.Substring(0, count);
-                    sb.Remove(0, count);
-                    sb.Append(moving);
-                    //text = text.Remove(0, count);
-                    //text = text + moving;
+                    text = text.Remove(0, count);
+                    text = text + moving;
 
                 }
                 else if (command == "Insert")
