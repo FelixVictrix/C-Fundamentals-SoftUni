@@ -24,9 +24,13 @@ namespace _01._The_Imitation_Game
                 if (command == "Move")
                 {
                     int count = int.Parse(action[1]);
-                    string moving = text.Substring(0, count);
-                    sb.Remove(0, count);
-                    sb.Append(moving);
+
+                    for (int i = 0; i < count; i++)
+                    {
+
+                    }
+
+                    //string moving = text.Substring(0, count);
                     //text = text.Remove(0, count);
                     //text = text + moving;
 
@@ -35,14 +39,15 @@ namespace _01._The_Imitation_Game
                 {
                     int index = int.Parse(action[1]);
                     string value = action[2];
-
-                    text = text.Insert(index, value);
+                    sb.Insert(index, value);
+                    //text = text.Insert(index, value);
                 }
                 else if (command == "ChangeAll")
                 {
                     string substring = action[1];
                     string replacement = action[2];
-                    text = text.Replace(substring, replacement);
+                    sb.Replace(substring, replacement);
+                   // text = text.Replace(substring, replacement);
                 }
 
 
