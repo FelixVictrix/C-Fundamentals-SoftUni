@@ -293,11 +293,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Computer Store", "01. C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. The Lift", "02. The Lift\02. The Lift.csproj", "{B1F431C2-83CB-41C2-9192-22352CBAE9EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Memory Game", "03. Memory Game\03. Memory Game.csproj", "{B5091DFF-E89C-46B7-A43C-2CABD34786BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Memory Game", "03. Memory Game\03. Memory Game.csproj", "{B5091DFF-E89C-46B7-A43C-2CABD34786BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. The Imitation Game", "01. The Imitation Game\01. The Imitation Game.csproj", "{DB1942DC-4EEB-4A4E-A1E7-50A177D7F2AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. The Imitation Game", "01. The Imitation Game\01. The Imitation Game.csproj", "{DB1942DC-4EEB-4A4E-A1E7-50A177D7F2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Ad Astra", "02. Ad Astra\02. Ad Astra.csproj", "{63901298-7241-455F-97EE-EB0092574D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Ad Astra", "02. Ad Astra\02. Ad Astra.csproj", "{63901298-7241-455F-97EE-EB0092574D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. The Pianist", "03. The Pianist\03. The Pianist.csproj", "{AFCC12BC-BEA4-4EBA-88A8-4021BD50EB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -825,6 +827,10 @@ Global
 		{63901298-7241-455F-97EE-EB0092574D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63901298-7241-455F-97EE-EB0092574D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63901298-7241-455F-97EE-EB0092574D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCC12BC-BEA4-4EBA-88A8-4021BD50EB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCC12BC-BEA4-4EBA-88A8-4021BD50EB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCC12BC-BEA4-4EBA-88A8-4021BD50EB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCC12BC-BEA4-4EBA-88A8-4021BD50EB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -959,6 +965,7 @@ Global
 		{B5091DFF-E89C-46B7-A43C-2CABD34786BB} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{DB1942DC-4EEB-4A4E-A1E7-50A177D7F2AF} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{63901298-7241-455F-97EE-EB0092574D9B} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{AFCC12BC-BEA4-4EBA-88A8-4021BD50EB1A} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
