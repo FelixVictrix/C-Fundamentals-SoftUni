@@ -303,6 +303,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. The Pianist", "03. The 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Bonus Scoring System", "01. Bonus Scoring System\01. Bonus Scoring System.csproj", "{3FD9772D-C80E-4782-A0D8-4BD1C45497BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. MuOnline", "02. MuOnline\02. MuOnline.csproj", "{0BE89403-B4B1-4091-BF71-D0D9C21E9CC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -837,6 +839,10 @@ Global
 		{3FD9772D-C80E-4782-A0D8-4BD1C45497BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD9772D-C80E-4782-A0D8-4BD1C45497BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD9772D-C80E-4782-A0D8-4BD1C45497BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE89403-B4B1-4091-BF71-D0D9C21E9CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE89403-B4B1-4091-BF71-D0D9C21E9CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE89403-B4B1-4091-BF71-D0D9C21E9CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE89403-B4B1-4091-BF71-D0D9C21E9CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -973,6 +979,7 @@ Global
 		{63901298-7241-455F-97EE-EB0092574D9B} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{AFCC12BC-BEA4-4EBA-88A8-4021BD50EB1A} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{3FD9772D-C80E-4782-A0D8-4BD1C45497BE} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{0BE89403-B4B1-4091-BF71-D0D9C21E9CC1} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
