@@ -9,8 +9,6 @@ namespace _03._The_Pianist
         static void Main(string[] args)
         {
 
-           string test = "abcdefghijklmnopqrstuvwxy";.
-            test = test.Substring()
 
         }
     }

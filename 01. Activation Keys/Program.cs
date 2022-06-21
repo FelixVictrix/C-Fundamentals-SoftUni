@@ -9,7 +9,6 @@ namespace _01._Activation_Keys
         static void Main(string[] args)
         {
             string key = Console.ReadLine();
-            StringBuilder sb = new StringBuilder(key);
 
             string input = Console.ReadLine();
 
