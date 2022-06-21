@@ -313,6 +313,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Emoji Detector.", "02. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. P!rates", "03. P!rates\03. P!rates.csproj", "{099B470F-2E5C-49EA-8F62-1D0B5E2BD8F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Password Reset", "01. Password Reset\01. Password Reset.csproj", "{598CF032-6BB2-4F96-BD9C-98400C081C8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -867,6 +869,10 @@ Global
 		{099B470F-2E5C-49EA-8F62-1D0B5E2BD8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{099B470F-2E5C-49EA-8F62-1D0B5E2BD8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{099B470F-2E5C-49EA-8F62-1D0B5E2BD8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598CF032-6BB2-4F96-BD9C-98400C081C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598CF032-6BB2-4F96-BD9C-98400C081C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598CF032-6BB2-4F96-BD9C-98400C081C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598CF032-6BB2-4F96-BD9C-98400C081C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1008,6 +1014,7 @@ Global
 		{F9BDB4A5-3872-4775-89C7-1F8544BC2884} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{10451FC0-7200-4036-BB1E-0C750285B1A1} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{099B470F-2E5C-49EA-8F62-1D0B5E2BD8F8} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{598CF032-6BB2-4F96-BD9C-98400C081C8E} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
