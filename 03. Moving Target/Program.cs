@@ -23,7 +23,7 @@ namespace _03A._Moving_Target
 
                 if (command == "Shoot")
                 {
-                    if (index >= 0 && index <= list.Count - 1)
+                    if (index >= 0 && index < list.Count)
                     {
                         int power = int.Parse(action[2]);
                         list[index] -= power;
@@ -35,7 +35,7 @@ namespace _03A._Moving_Target
                 }
                 else if (command == "Add")
                 {
-                    if (index >= 0 && index <= list.Count - 1)
+                    if (index >= 0 && index < list.Count)
                     {
                         int value = int.Parse(action[2]);
 
@@ -53,7 +53,7 @@ namespace _03A._Moving_Target
                     int startIndex = index - radius;
                     int endIndex = index + radius;
 
-                    if (startIndex >= 0 && endIndex < list.Count && radius > 0)
+                    if (startIndex >= 0 && endIndex < list.Count)
                     {
 
                         int count = endIndex - startIndex + 1;
