@@ -319,6 +319,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Fancy Barcodes", "02. F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Moving Target", "03. Moving Target\03. Moving Target.csproj", "{74DB4E2F-D621-4360-AE48-58FB16186BB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Heroes of Code and Logic VII", "03. Heroes of Code and Logic VII\03. Heroes of Code and Logic VII.csproj", "{758FEA20-6A09-4221-A92C-27836335C9A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -885,6 +887,10 @@ Global
 		{74DB4E2F-D621-4360-AE48-58FB16186BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DB4E2F-D621-4360-AE48-58FB16186BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DB4E2F-D621-4360-AE48-58FB16186BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758FEA20-6A09-4221-A92C-27836335C9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758FEA20-6A09-4221-A92C-27836335C9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758FEA20-6A09-4221-A92C-27836335C9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758FEA20-6A09-4221-A92C-27836335C9A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1029,6 +1035,7 @@ Global
 		{598CF032-6BB2-4F96-BD9C-98400C081C8E} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{55D9A163-59B3-4523-85F1-BBF7C5245F3F} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{74DB4E2F-D621-4360-AE48-58FB16186BB9} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{758FEA20-6A09-4221-A92C-27836335C9A1} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
