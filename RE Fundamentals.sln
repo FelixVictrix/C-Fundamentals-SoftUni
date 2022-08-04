@@ -323,6 +323,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Heroes of Code and Logi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Heroes of Code and Logic VII Objects", "03. Heroes of Code and Logic VII Objects\03. Heroes of Code and Logic VII Objects.csproj", "{33AAD003-6AB7-4883-BA3F-AF16629DAC99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. World Tour", "01. World Tour\01. World Tour.csproj", "{C61190B6-4905-43AD-8F58-D56EC2D1713C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -897,6 +899,10 @@ Global
 		{33AAD003-6AB7-4883-BA3F-AF16629DAC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33AAD003-6AB7-4883-BA3F-AF16629DAC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33AAD003-6AB7-4883-BA3F-AF16629DAC99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61190B6-4905-43AD-8F58-D56EC2D1713C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61190B6-4905-43AD-8F58-D56EC2D1713C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61190B6-4905-43AD-8F58-D56EC2D1713C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61190B6-4905-43AD-8F58-D56EC2D1713C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1043,6 +1049,7 @@ Global
 		{74DB4E2F-D621-4360-AE48-58FB16186BB9} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{758FEA20-6A09-4221-A92C-27836335C9A1} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{33AAD003-6AB7-4883-BA3F-AF16629DAC99} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{C61190B6-4905-43AD-8F58-D56EC2D1713C} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
