@@ -321,9 +321,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Moving Target", "03. Mo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Heroes of Code and Logic VII", "03. Heroes of Code and Logic VII\03. Heroes of Code and Logic VII.csproj", "{758FEA20-6A09-4221-A92C-27836335C9A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Heroes of Code and Logic VII Objects", "03. Heroes of Code and Logic VII Objects\03. Heroes of Code and Logic VII Objects.csproj", "{33AAD003-6AB7-4883-BA3F-AF16629DAC99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Heroes of Code and Logic VII Objects", "03. Heroes of Code and Logic VII Objects\03. Heroes of Code and Logic VII Objects.csproj", "{33AAD003-6AB7-4883-BA3F-AF16629DAC99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. World Tour", "01. World Tour\01. World Tour.csproj", "{C61190B6-4905-43AD-8F58-D56EC2D1713C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. World Tour", "01. World Tour\01. World Tour.csproj", "{C61190B6-4905-43AD-8F58-D56EC2D1713C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Destination Mapper", "02. Destination Mapper\02. Destination Mapper.csproj", "{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Plant Discovery Obj", "03. Plant Discovery\03. Plant Discovery Obj.csproj", "{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Plant Discovery Dic", "03. Plant Discovery Dic\03. Plant Discovery Dic.csproj", "{8494E395-A937-4E95-AA15-6FD169779E33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -903,6 +909,18 @@ Global
 		{C61190B6-4905-43AD-8F58-D56EC2D1713C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61190B6-4905-43AD-8F58-D56EC2D1713C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61190B6-4905-43AD-8F58-D56EC2D1713C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8494E395-A937-4E95-AA15-6FD169779E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8494E395-A937-4E95-AA15-6FD169779E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8494E395-A937-4E95-AA15-6FD169779E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8494E395-A937-4E95-AA15-6FD169779E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1050,6 +1068,9 @@ Global
 		{758FEA20-6A09-4221-A92C-27836335C9A1} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{33AAD003-6AB7-4883-BA3F-AF16629DAC99} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{C61190B6-4905-43AD-8F58-D56EC2D1713C} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{8494E395-A937-4E95-AA15-6FD169779E33} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
