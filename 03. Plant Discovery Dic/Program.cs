@@ -48,7 +48,9 @@ namespace _03._Plant_Discovery_Dic
 
                 command = Console.ReadLine();
             }
+
             Console.WriteLine("Plants for the exhibition:");
+
             foreach (var item in plantsRarity)
             {
                 Console.Write($"- {item.Key}; Rarity: {item.Value};");
