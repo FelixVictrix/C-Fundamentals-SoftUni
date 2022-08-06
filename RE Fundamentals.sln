@@ -325,11 +325,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Heroes of Code and Logi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. World Tour", "01. World Tour\01. World Tour.csproj", "{C61190B6-4905-43AD-8F58-D56EC2D1713C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Destination Mapper", "02. Destination Mapper\02. Destination Mapper.csproj", "{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Destination Mapper", "02. Destination Mapper\02. Destination Mapper.csproj", "{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Plant Discovery Obj", "03. Plant Discovery\03. Plant Discovery Obj.csproj", "{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Plant Discovery Obj", "03. Plant Discovery\03. Plant Discovery Obj.csproj", "{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Plant Discovery Dic", "03. Plant Discovery Dic\03. Plant Discovery Dic.csproj", "{8494E395-A937-4E95-AA15-6FD169779E33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Plant Discovery Dic", "03. Plant Discovery Dic\03. Plant Discovery Dic.csproj", "{8494E395-A937-4E95-AA15-6FD169779E33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Secret Chat", "01. Secret Chat\01. Secret Chat.csproj", "{A4D21EC3-7B6D-4B5C-98C9-D8CE75ACC3E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Mirror Words", "02. Mirror Words\02. Mirror Words.csproj", "{2555B716-E8CE-4068-A280-9F8F5CCAC631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -921,6 +925,14 @@ Global
 		{8494E395-A937-4E95-AA15-6FD169779E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8494E395-A937-4E95-AA15-6FD169779E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8494E395-A937-4E95-AA15-6FD169779E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D21EC3-7B6D-4B5C-98C9-D8CE75ACC3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D21EC3-7B6D-4B5C-98C9-D8CE75ACC3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D21EC3-7B6D-4B5C-98C9-D8CE75ACC3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D21EC3-7B6D-4B5C-98C9-D8CE75ACC3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2555B716-E8CE-4068-A280-9F8F5CCAC631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2555B716-E8CE-4068-A280-9F8F5CCAC631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2555B716-E8CE-4068-A280-9F8F5CCAC631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2555B716-E8CE-4068-A280-9F8F5CCAC631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1071,6 +1083,8 @@ Global
 		{E9E2D942-2A46-4D7F-8822-9BE0CE3A4E23} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{AA4B7227-DF11-4FA2-93F1-7BFE08FA8982} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 		{8494E395-A937-4E95-AA15-6FD169779E33} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{A4D21EC3-7B6D-4B5C-98C9-D8CE75ACC3E4} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
+		{2555B716-E8CE-4068-A280-9F8F5CCAC631} = {7370A72F-D277-44F8-BE3D-66BA7229F867}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {327F1092-1904-4ED2-B2E8-790BA46181FD}
