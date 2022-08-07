@@ -8,7 +8,7 @@ namespace Moving_Target
     {
         static void Main()
         {
-           
+         
         }
     }
 }
